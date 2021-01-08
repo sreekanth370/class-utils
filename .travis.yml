@@ -17,8 +17,9 @@ node_js:
   - '0.12'
   - '0.10'
  # exlcude unsupport power jobs node 0.10,0.12
- exclude:
-   - arch: ppc64le
+ matrix:
+   exclude:
+     - arch: ppc64le
      node: 0.10
-   - arch: ppc64le
+     - arch: ppc64le
      node: 0.12
