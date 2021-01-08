@@ -20,6 +20,6 @@ node_js:
  matrix:
    exclude:
      - arch: ppc64le
-       node: 0.10
+       node_js: 0.10
      - arch: ppc64le
-       node: 0.12
+       node_js: 0.12
